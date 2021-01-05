@@ -19,6 +19,8 @@ fn main() {
             gen_password(format!("{}{}", math_id.trim(), "$1&1234-4321-123456"), *h)
         )
     }
+    io::stdin().read_line(&mut math_id)
+        .expect("Failed to read line");
 }
 
 fn f1(mut n: i32, byte: i32, c: i32) -> i32 {
