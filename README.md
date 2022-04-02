@@ -1,2 +1,2 @@
 # mma12keygen_rs
-nothing
+A mma 12 key generator
